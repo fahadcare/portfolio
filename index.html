@@ -1942,7 +1942,7 @@
 													<div class="contact-info tCenter">
 													<ul>
 														<li><div class="ico"><i class="icon-mail"></i></div>
-														<p>https://m.me/FahadCareInc</p></li>
+														<p>fahadcare@hotmail.com</p></li>
 														<li><div class="ico"><i class="icon-phone"></i></div>
 														<p>Tel : + 123-456-789</p></li>
 														<li><div class="ico"><i class="icon-link"></i></div>
@@ -2081,8 +2081,16 @@
 
 
 												<div class="col-md-12">
-													<a class="but opc-1 ico" href="download.aspx">Download my cv</a>
+													<a class="but opc-1 ico" href="files/cv.pdf">Download my CV</a>
 													<a class="but opc-2 ico" href="window.print();">Print my resume</a>
+													<script>
+													(function( w, d ) {
+													   'use strict'; 
+
+													   d.querySelector( '.btn-print' ).addEventListener( 'click', function() { w.print(); }, false );
+
+													}( window, document ));
+													</script>
 
 												</div>
 
